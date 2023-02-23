@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,9 +17,9 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 Route::middleware([
     'auth:sanctum',
@@ -30,3 +32,7 @@ Route::middleware([
 });
 
 Route::get('/redirect',[HomeController::class,'redirect']);
+Route::get('/',[HomeController::class,'index']);
+Route::get('/product',[AdminController::class,'product']);
+
+Route::post('/uploadproduct',[AdminController::class,'uploadproduct']);

@@ -20,8 +20,20 @@ class HomeController extends Controller
         }
         else
         {
-            return view('dashboard');
+            return view('user.home');
 
+        }
+    }
+
+    public function index()
+    {
+        if(Auth::id())
+        {
+            return redirect('redirect');
+        }
+        else
+        {
+            return view('user.home');
         }
     }
 }
