@@ -1,22 +1,3 @@
-<div class="container-scroller">
-      <div class="row p-0 m-0 proBanner" id="proBanner">
-        <div class="col-md-12 p-0 m-0">
-          <div class="card-body card-body-padding d-flex align-items-center justify-content-between">
-            <div class="ps-lg-1">
-              <div class="d-flex align-items-center justify-content-between">
-                <p class="mb-0 font-weight-medium me-3 buy-now-text">Free 24/7 customer support, updates, and more with this template!</p>
-                <a href="https://www.bootstrapdash.com/product/corona-free/?utm_source=organic&utm_medium=banner&utm_campaign=buynow_demo" target="_blank" class="btn me-2 buy-now-btn border-0">Get Pro</a>
-              </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-between">
-              <a href="https://www.bootstrapdash.com/product/corona-free/"><i class="mdi mdi-home me-3 text-white"></i></a>
-              <button id="bannerClose" class="btn border-0 p-0">
-                <i class="mdi mdi-close text-white me-0"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
 <div class="main-panel">
           <div class="content-wrapper">
             <div class="row">
@@ -25,7 +6,7 @@
                   <div class="card-body py-0 px-0 px-sm-3">
                     <div class="row align-items-center">
                       <div class="col-4 col-sm-3 col-xl-2">
-                        <img src="admin/assets/images/dashboard/Group126@2x.png" class="gradient-corona-img img-fluid" alt="">
+                        <img src="assets/images/dashboard/Group126@2x.png" class="gradient-corona-img img-fluid" alt="">
                       </div>
                       <div class="col-5 col-sm-7 col-xl-8 p-0">
                         <h4 class="mb-1 mb-sm-0">Want even more features?</h4>
@@ -346,7 +327,7 @@
                               </div>
                             </td>
                             <td>
-                              <img src="admin/assets/images/faces/face1.jpg" alt="image" />
+                              <img src="assets/images/faces/face1.jpg" alt="image" />
                               <span class="ps-2">Henry Klein</span>
                             </td>
                             <td> 02312 </td>
@@ -367,7 +348,7 @@
                               </div>
                             </td>
                             <td>
-                              <img src="admin/assets/images/faces/face2.jpg" alt="image" />
+                              <img src="assets/images/faces/face2.jpg" alt="image" />
                               <span class="ps-2">Estella Bryan</span>
                             </td>
                             <td> 02312 </td>
@@ -388,7 +369,7 @@
                               </div>
                             </td>
                             <td>
-                              <img src="admin/assets/images/faces/face5.jpg" alt="image" />
+                              <img src="assets/images/faces/face5.jpg" alt="image" />
                               <span class="ps-2">Lucy Abbott</span>
                             </td>
                             <td> 02312 </td>
@@ -409,7 +390,7 @@
                               </div>
                             </td>
                             <td>
-                              <img src="admin/assets/images/faces/face3.jpg" alt="image" />
+                              <img src="assets/images/faces/face3.jpg" alt="image" />
                               <span class="ps-2">Peter Gill</span>
                             </td>
                             <td> 02312 </td>
@@ -430,7 +411,7 @@
                               </div>
                             </td>
                             <td>
-                              <img src="admin/assets/images/faces/face4.jpg" alt="image" />
+                              <img src="assets/images/faces/face4.jpg" alt="image" />
                               <span class="ps-2">Sallie Reyes</span>
                             </td>
                             <td> 02312 </td>
@@ -460,7 +441,7 @@
                     <div class="preview-list">
                       <div class="preview-item border-bottom">
                         <div class="preview-thumbnail">
-                          <img src="admin/assets/images/faces/face6.jpg" alt="image" class="rounded-circle" />
+                          <img src="assets/images/faces/face6.jpg" alt="image" class="rounded-circle" />
                         </div>
                         <div class="preview-item-content d-flex flex-grow">
                           <div class="flex-grow">
@@ -474,7 +455,7 @@
                       </div>
                       <div class="preview-item border-bottom">
                         <div class="preview-thumbnail">
-                          <img src="admin/assets/images/faces/face8.jpg" alt="image" class="rounded-circle" />
+                          <img src="assets/images/faces/face8.jpg" alt="image" class="rounded-circle" />
                         </div>
                         <div class="preview-item-content d-flex flex-grow">
                           <div class="flex-grow">
@@ -488,7 +469,7 @@
                       </div>
                       <div class="preview-item border-bottom">
                         <div class="preview-thumbnail">
-                          <img src="admin/assets/images/faces/face9.jpg" alt="image" class="rounded-circle" />
+                          <img src="assets/images/faces/face9.jpg" alt="image" class="rounded-circle" />
                         </div>
                         <div class="preview-item-content d-flex flex-grow">
                           <div class="flex-grow">
@@ -502,7 +483,7 @@
                       </div>
                       <div class="preview-item border-bottom">
                         <div class="preview-thumbnail">
-                          <img src="admin/assets/images/faces/face11.jpg" alt="image" class="rounded-circle" />
+                          <img src="assets/images/faces/face11.jpg" alt="image" class="rounded-circle" />
                         </div>
                         <div class="preview-item-content d-flex flex-grow">
                           <div class="flex-grow">
@@ -524,20 +505,20 @@
                     <h4 class="card-title">Portfolio Slide</h4>
                     <div class="owl-carousel owl-theme full-width owl-carousel-dash portfolio-carousel" id="owl-carousel-basic">
                       <div class="item">
-                        <img src="admin/assets/images/dashboard/Rectangle.jpg" alt="">
+                        <img src="assets/images/dashboard/Rectangle.jpg" alt="">
                       </div>
                       <div class="item">
-                        <img src="admin/assets/images/dashboard/Img_5.jpg" alt="">
+                        <img src="assets/images/dashboard/Img_5.jpg" alt="">
                       </div>
                       <div class="item">
-                        <img src="admin/assets/images/dashboard/img_6.jpg" alt="">
+                        <img src="assets/images/dashboard/img_6.jpg" alt="">
                       </div>
                     </div>
                     <div class="d-flex py-4">
                       <div class="preview-list w-100">
                         <div class="preview-item p-0">
                           <div class="preview-thumbnail">
-                            <img src="admin/assets/images/faces/face12.jpg" class="rounded-circle" alt="">
+                            <img src="assets/images/faces/face12.jpg" class="rounded-circle" alt="">
                           </div>
                           <div class="preview-item-content d-flex flex-grow">
                             <div class="flex-grow">
@@ -688,5 +669,3 @@
               <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center"> Free <a href="https://www.bootstrapdash.com/bootstrap-admin-template/" target="_blank">Bootstrap admin template</a> from Bootstrapdash.com</span>
             </div>
           </footer>
-          <!-- partial -->
-        </div>

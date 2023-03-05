@@ -1,20 +1,19 @@
-<x-app-layout>
-</x-app-layout>
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    @include('admin.css')
+        @include('admin.css')
   </head>
   <body>
-      <!-- partial:partials/_sidebar.html -->
-            @include('admin.sidebar')
-        <!-- navbar -->
-            @include('admin.navbar')
-        <!-- main-panel -->
-            @include('admin.body')
-      <!-- script -->
-    @include('admin.script')
+        @include('admin.sidebar')
+      <!-- partial -->
+
+        @include('admin.navbar')
+
+        <!-- partial -->
+        @include('admin.body')
+          <!-- partial -->
+        @include('admin.script')
   </body>
 </html>
